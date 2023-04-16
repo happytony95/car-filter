@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+input[type=text] {
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 45%;
+}
+
+select {
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.vehicle-type {
+    border-color: lightgray;
+    border-radius: 4px;
+    border-width: 2px;
+}
+
+.active{
+    border-color: rgb(52 211 153);
+    border-radius: 4px;
+    border-width: 2px;
+}
+
